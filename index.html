@@ -26,39 +26,60 @@
 		</div>
 	</div>
 	<div class="info_intro_text">
-			<p>With three simple questions FinanceMyLife can help you in your transition from college to the real world.</p>
+			<p>With three simple questions FinanceMyLife can help you in<br>your transition from college to the real world.</p>
 	</div>
 
 	<div class="info_div">
-		<div class="info_box info_1">
-			<p>hello world</p>
-		</div>
-		<div class="info_box info_2"></div>
-		<div class="info_box info_3"></div>
+		<div class="info_box" id="info_1"></div>
+		<div class="info_box" id="info_2"></div>
+		<div class="info_box" id="info_3"></div>
 	</div>
 
 
 
 	<div class="questionare_block">
 		<div class="questionare_block_field">
-			<form action="action_page.php">
+			<form>
+				<br><br>
 				<div class="input_question">City:</div>
 					<input type="text" name="firstname" placeholder="City you want to live in." class="input_field" id="city_texfield">
-				<br>
+				<br><br>
 				<div class="input_question">State:</div>
 					<input type="text" name="lastname" placeholder="State you want to live in." class="input_field" id="state_texfield">
-				<br>
+				<br><br>
 				<div class="input_question">Job:</div>
 					<input type="text" name="firstname" placeholder="Job you're looking to apply to." class="input_field" id="job_texfield">
-				<br>
+				<br><br>
 				<div class="input_question">Debt:</div>
 					<input type="text" name="firstname" placeholder="School and other debts" class="input_field" id="debt_texfield">
 				<br><br>
-		<input type="submit" value="Submit">
 		</form>
 		</div>
+		<div id="pos_submit">
+			<div id="submit">
+				<h3>Submit</h3>
+			</div>
+		</div>
+
 	</div>
 
+	<div id="output">
+		<div id="output_1">
+			<h2>Title of Section</h2>
+			<ul class="list_things">
+				<li>Thing: <span id="">This is a span with pending id</span></li><br>
+				<li>Thing: <span id="">This is a span with pending id</span></li><br>
+				<li>Thing: <span id="">This is a span with pending id</span></li><br>
+				<li>Thing: <span id="">This is a span with pending id</span></li><br>
+			</ul>
+		</div>
+		<div id="output_2">asdasd</div>
+		<div id="output_3">dsafasdfsad</div>		
+		<div id="output_4">jbsppsda</div>		
+	</div>
+	<div class="bottom">
+
+	</div>
 
 
 	<script>
@@ -67,16 +88,14 @@
 	    	$('html,body').animate({scrollTop: aTag.offset().top},'slow');
 		}
 		$("#link").click(function() {
-	   		scrollToAnchor('questionare_block');
+	   		scrollToAnchor('info_intro_text');
 		});
+
+		
 	</script>
 
 </body>
 </html>
-
-
-
-
 
 
 

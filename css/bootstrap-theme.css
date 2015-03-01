@@ -500,10 +500,10 @@ body {
 .first_div  {
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.20),
+      rgba(0, 0, 0, 0.20)
     ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg);
+    url(https://farm8.staticflickr.com/7162/6629875515_a5fb1415db_b.jpg);
   background-size: cover;
   position: relative;
   height: 545px;
@@ -536,14 +536,14 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.8em;
-  color: #31929F; 
+  color: #FFFFFF; 
   margin-top: 160px;
   display: block;
 }
 
 .main_title_sub_title{
   font-family: Verdana, Geneva, sans-serif;
-  color: #31929F; 
+  color: #FFFFFF; 
   font-size: 1em;
   text-align: center;
   margin-top: -30px;
@@ -565,77 +565,180 @@ body {
   font-size: .8em;
   width: 150px;
   padding: 1px;
-    background: rgba(174, 229, 237, .5);
-    color: #31929F;
+    background: rgba(255, 255, 255, .35);
+    color: #FFFFFF;
     border-radius: 3px;
 }
 
 .get_started:hover{
-    background: rgba(174, 229, 237, .75);
-    color: #2C838F;
+    background: rgba(51, 51, 51, .75);
+    color: #FFFFFF;
     border-radius: 3px;
     cursor: pointer
   }
 
 .info_intro_text{
-  background-color: #31929F;
+  background-color: #F3F4F4;
   display: inline-block;
   width: 100%;
   text-align: center;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 1.4em;
-  color: #fff8f8;
+  font-size: 1.6em;
+  color: #565A5C;
 }
 
 .info_div{
-  background: #31929F;
+  background: #F3F4F4;
   display: inline-block;
   width: 100%;
   margin: 0;
 }
 
+
+
 .info_box {
+  display: inline;
+  float: left;
+}
+
+#info_1{
   background: 
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+    url(https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/11046191_351212695063871_2895646362790852157_n.jpg?oh=562e591f17cd1462ddb279cad514e25d&oe=558CA852&__gda__=1433793258_d2e8c8dd2e88563bbdd5ddfb18d290a4);
   
   width: 325px;
-  height: 500px;
+  height: 375px;
   margin: 30px 30px 45px 60px;
-  display: inline;
-  float: left;
+
+}
+
+#info_2{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://stocksnap.io/img-thumbs/960w/744085EF81.jpg);
+  
+  width: 325px;
+  height: 375px;
+  margin: 30px 30px 45px 60px;
+}
+
+#info_3{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://stocksnap.io/img-thumbs/960w/744085EF81.jpg);
+  
+  width: 325px;
+  height: 375px;
+  margin: 30px 30px 45px 60px;
 }
 
 .questionare_block{
-  height: 1545px;
+  height: 500px;
   width: 100%;
-  background-color: #E18D86;
+  /*background-color: #D58C8C;*/
   margin-top: -4px;
-    text-align: center;
+  text-align: center;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.4em;
-  color: #fff8f8;
+  /*color: #fff8f8;*/
+
+    background:  
+  url(http://www.swimbus.com/wp-content/uploads/Spacious-Workspace-Area-With-Wooden-Desk-And-Racks.jpg);
+  background-size: cover;
 }
 
 .questionare_block_field{
   width: 70%;
-    display: block;
+  display: block;
   position: relative;
   margin: 0 auto;
-
-
 }
 
 .input_field {
-  width: 300px;
-
+  width: 500px;
+  height: 40px;
   margin-right: auto;
   float: center;
 }
 
 .input_question{
   width: 100px;
+  color: #565A5C;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
 }
+
+#pos_submit {
+  display: block;
+  position: relative;
+  margin-top: 37px;
+}
+
+#submit{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: .8em;
+  width: 150px;
+  padding: 1px;
+    background: rgba(255, 255, 255, .35);
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+#submit:hover{
+    background: rgba(51, 51, 51, .75);
+    color: #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer
+  }
+ 
+#output{
+  height: 920px;
+  width: 100%;
+ /* background-color: #565A5C;*/
+
+  background:     linear-gradient(
+      rgba(0, 0, 0, 0.50),
+      rgba(0, 0, 0, 0.50)
+    ),
+  url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/11021239_351196208398853_424631089700135472_n.jpg?oh=256abea0de7225e427b43c0907137dae&oe=55778EB5&__gda__=1434131502_bc2cc9c99ec056cd574a7e2664e6fa14);
+  background-size: cover;
+}
+
+
+#output_1,#output_2,#output_3, #output_4{
+  text-align: center;
+  background: rgba(255, 255, 255, .35);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  color: #333637; 
+  height: 400px;
+  width: 590px;
+  margin: 30px 10px 30px 30px;
+  display: inline;
+  float: left;
+}
+
+.list_things{
+  text-align: left;
+}
+/*.bottom{
+  height: 50px;
+  background-color: #F5DCDB;
+  margin-top: -4px;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.4em;
+  color: #fff8f8;
+}*/
