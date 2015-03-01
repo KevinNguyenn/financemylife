@@ -500,10 +500,10 @@ body {
 .first_div  {
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.20),
+      rgba(0, 0, 0, 0.20)
     ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/cheese-curds.jpg);
+    url(https://farm8.staticflickr.com/7162/6629875515_a5fb1415db_b.jpg);
   background-size: cover;
   position: relative;
   height: 545px;
@@ -536,14 +536,14 @@ body {
   text-align: center;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.8em;
-  color: #31929F; 
+  color: #FFFFFF; 
   margin-top: 160px;
   display: block;
 }
 
 .main_title_sub_title{
   font-family: Verdana, Geneva, sans-serif;
-  color: #31929F; 
+  color: #FFFFFF; 
   font-size: 1em;
   text-align: center;
   margin-top: -30px;
@@ -565,77 +565,182 @@ body {
   font-size: .8em;
   width: 150px;
   padding: 1px;
-    background: rgba(174, 229, 237, .5);
-    color: #31929F;
+    background: rgba(255, 255, 255, .35);
+    color: #FFFFFF;
     border-radius: 3px;
 }
 
 .get_started:hover{
-    background: rgba(174, 229, 237, .75);
-    color: #2C838F;
+    background: rgba(51, 51, 51, .75);
+    color: #FFFFFF;
     border-radius: 3px;
     cursor: pointer
   }
 
 .info_intro_text{
-  background-color: #31929F;
+  background-color: #F3F4F4;
   display: inline-block;
   width: 100%;
   text-align: center;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 1.4em;
-  color: #fff8f8;
+  font-size: 1.6em;
+  color: #565A5C;
 }
 
 .info_div{
-  background: #31929F;
+  background: #F3F4F4;
   display: inline-block;
   width: 100%;
   margin: 0;
 }
 
+
+
 .info_box {
-  background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
-  
-  width: 325px;
-  height: 500px;
-  margin: 30px 30px 45px 60px;
   display: inline;
   float: left;
 }
 
+#info_1{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://scontent.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10934052_351251411726666_5315803900457302363_n.jpg?oh=a312aaaf329a0045d3029ab251b73c9c&oe=55920E95);
+  
+  width: 325px;
+  height: 375px;
+  margin: 30px 30px 45px 60px;
+
+}
+
+#info_2{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/1545678_351251445059996_5463501460028765348_n.jpg?oh=a3b4188ff1c9526444c9647b12d3e5bb&oe=5579FF2D&__gda__=1435218192_51fb6de5e26b3230e06829dd4e196273);
+  
+  width: 325px;
+  height: 375px;
+  margin: 30px 30px 45px 60px;
+}
+
+#info_3{
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11021195_351251405060000_2356435493160017881_n.jpg?oh=b762ca798122fa508a4495e720db8b14&oe=5593002F);
+  
+  width: 325px;
+  height: 375px;
+  margin: 30px 30px 45px 60px;
+}
+
 .questionare_block{
-  height: 1545px;
+  height: 500px;
   width: 100%;
-  background-color: #E18D86;
+  /*background-color: #D58C8C;*/
   margin-top: -4px;
-    text-align: center;
+  text-align: center;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.4em;
-  color: #fff8f8;
+  /*color: #fff8f8;*/
+
+    background:  
+  url(https://scontent.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11026262_351251408393333_7776993930676181294_n.jpg?oh=21ac4bc89b85f6ea33cb21a33ee1c28a&oe=557CDE6D);
+  background-size: cover;
 }
 
 .questionare_block_field{
   width: 70%;
-    display: block;
+  display: block;
   position: relative;
   margin: 0 auto;
-
-
 }
 
 .input_field {
-  width: 300px;
-
+  width: 500px;
+  height: 40px;
   margin-right: auto;
   float: center;
 }
 
 .input_question{
   width: 100px;
+  color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+}
+
+#pos_submit {
+  display: block;
+  position: relative;
+  margin-top: 37px;
+}
+
+#submit{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: .8em;
+  width: 150px;
+  padding: 1px;
+    background: rgba(255, 255, 255, .35);
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+#submit:hover{
+    background: rgba(51, 51, 51, .75);
+    color: #FFFFFF;
+    border-radius: 3px;
+    cursor: pointer
+  }
+ 
+.output {
+  height: 690px;
+  width: 100%;
+ /* background-color: #565A5C;*/
+
+  background: #f9f5ec; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f9f5ec 0%, #ede6d7 36%, #e3dac6 67%, #ddd3bc 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f9f5ec), color-stop(36%,#ede6d7), color-stop(67%,#e3dac6), color-stop(100%,#ddd3bc)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #f9f5ec 0%,#ede6d7 36%,#e3dac6 67%,#ddd3bc 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #f9f5ec 0%,#ede6d7 36%,#e3dac6 67%,#ddd3bc 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #f9f5ec 0%,#ede6d7 36%,#e3dac6 67%,#ddd3bc 100%); /* IE10+ */
+  background: linear-gradient(to right,  #f9f5ec 0%,#ede6d7 36%,#e3dac6 67%,#ddd3bc 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f5ec', endColorstr='#ddd3bc',GradientType=1 ); /* IE6-9 */
+  background-size: cover;
+}
+
+#output_1, #output_2, #output_3, #output_4 {
+  text-align: center;
+  background: rgba(255, 255, 255, .20);
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.2em;
+  color: #333637; 
+  height: 275px;
+  width: 500px;
+  margin: 30px 0px 30px 92px;
+  display: inline;
+  float: left;
+}
+
+.list_things{
+  text-align: left;
+  font-size: .8em;
+  color: #565A5C;
+}
+
+.bottom{
+  background-color: #383839;
+  height: 175px;
+  width: 100%;
+  margin-top: -8px;
 }
