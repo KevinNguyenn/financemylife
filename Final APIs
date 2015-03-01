@@ -1,0 +1,13 @@
+Final APIs
+Glassdoor Job Prog
+
+http://api.glassdoor.com/api/api.htm?t.p=30822&t.k=vxCwTl1xrg&userip=216.59.196.8&useragent=chrome&format=json&v=1&action=jobs-prog&countryId=1&jobTitle=<insert Job title here>
+
+Zillow
+http://www.zillow.com/webservice/GetMonthlyPayments.htm?zws-id=X1-ZWz1ay4jy8mi2z_17jma&price=<price>&down=<down>&zip=<zip>
+
+
+Glass door Job stats
+
+
+http://api.glassdoor.com/api/api.htm?v=1&format=json&t.p=30822&t.k=vxCwTl1xrg&action=employers&q=<occupation desiried> &userip=172.19.2.0&useragent=Mozilla/%2F35.0&state=<two letter state name" &radius=1&admLevelRequested=1&City=< city name here>
