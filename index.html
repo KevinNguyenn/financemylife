@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
 	<title>FML</title>
 </head>
@@ -35,8 +36,6 @@
 		<div class="info_box" id="info_3"></div>
 	</div>
 
-
-
 	<div class="questionare_block">
 		<div class="questionare_block_field">
 			<form>
@@ -55,32 +54,51 @@
 				<br><br>
 		</form>
 		</div>
-		<div id="pos_submit">
+		<div id="pos_submit" href="#">
 			<div id="submit">
 				<h3>Submit</h3>
 			</div>
 		</div>
-
 	</div>
 
-	<div id="output">
+	<div class="output">
 		<div id="output_1">
-			<h2>Title of Section</h2>
+			<h3>Housing</h3>
 			<ul class="list_things">
-				<li>Thing: <span id="">This is a span with pending id</span></li><br>
-				<li>Thing: <span id="">This is a span with pending id</span></li><br>
-				<li>Thing: <span id="">This is a span with pending id</span></li><br>
-				<li>Thing: <span id="">This is a span with pending id</span></li><br>
+				<li>Mortgage and Principal: <span id="results">$13,440 per year</span></li><br>
+				<li>Property Tax: <span id="results">$4,656</span></li><br>
+				<li>Utilities: <span id="results">$1,932</span></li><br>
+				<li>Total Cost of Housing: <span id="results">$20,028</span></li><br>
 			</ul>
 		</div>
-		<div id="output_2">asdasd</div>
-		<div id="output_3">dsafasdfsad</div>		
-		<div id="output_4">jbsppsda</div>		
+		<div id="output_2">
+			<h3>Standard of Living</h3>
+			<ul class="list_things">
+				<li>Comapred to San Francisco...<span id="results">Groceries are 22% cheaper</span></li><br>
+				<li>Compared to San Francisco...<span id="results">Housing is 303% more cheaper</span></li><br>
+				<li>Compared to Austin...<span id="results">Groceries are 15% more expensive</span></li><br>
+				<li>Compared to Austin...<span id="results">Transportation is 4% more expensive</span></li><br>
+			</ul>
+		</div>
+		<div id="output_3">
+			<h3>Debt</h3>
+			<ul class="list_things">
+				<li>With a 15 year with a 4.71% interest rate...<span id="results">You pay $1,168 towards your debt</span></li><br>
+			</ul>
+		</div>		
+		<div id="output_4">
+			<h3>Net Income</h3>
+			<ul class="list_things">
+				<li>Gross Income:<span id="results">$69,000</span></li><br>
+				<li>Housing Payments:<span id="results">$20,028</span></li><br>
+				<li>Debt Payments:<span id="results"></span>$1,861</li><br>
+				<li>Total Deductions:<span id="results"></span>$21,889</li><br>
+				<li>Total Cost of Living:<span id="results"></span>$47,111</li><br>
+			</ul>
+		</div>		
 	</div>
-	<div class="bottom">
-
+	<div class="bottom">ddd
 	</div>
-
 
 	<script>
 		function scrollToAnchor(aid){
@@ -90,8 +108,10 @@
 		$("#link").click(function() {
 	   		scrollToAnchor('info_intro_text');
 		});
+		$("#pos_submit").click(function() {
+	   		scrollToAnchor('output');
+		});
 
-		
 	</script>
 
 </body>
