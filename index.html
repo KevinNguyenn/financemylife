@@ -1,14 +1,82 @@
-
-<<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
 	<title>FML</title>
 </head>
-<body>
-<p>Hello World!</p>
+
+<body>	
+	<div class="first_div">
+		<div id="header">	
+			<div class="logo">
+				<p>FinanceMyLife</p>
+			</div>
+		</div>
+		<div class="main_title">
+			<h1>LET'S FIND-ANCE YOUR LIFE</h1>
+		</div>
+		<div class="main_title_sub_title">
+			<p>A simple after graduation life planner.</p>
+		</div>
+		<div class="pos_get_started" id="link" href="#">
+			<div class="get_started">
+				<h3>Get Started</h3>
+			</div>
+		</div>
+	</div>
+	<div class="info_intro_text">
+			<p>With three simple questions FinanceMyLife can help you in your transition from college to the real world.</p>
+	</div>
+
+	<div class="info_div">
+		<div class="info_box info_1">
+			<p>hello world</p>
+		</div>
+		<div class="info_box info_2"></div>
+		<div class="info_box info_3"></div>
+	</div>
+
+
+
+	<div class="questionare_block">
+		<div class="questionare_block_field">
+			<form action="action_page.php">
+				<div class="input_question">City:</div>
+					<input type="text" name="firstname" placeholder="City you want to live in." class="input_field" id="city_texfield">
+				<br>
+				<div class="input_question">State:</div>
+					<input type="text" name="lastname" placeholder="State you want to live in." class="input_field" id="state_texfield">
+				<br>
+				<div class="input_question">Job:</div>
+					<input type="text" name="firstname" placeholder="Job you're looking to apply to." class="input_field" id="job_texfield">
+				<br>
+				<div class="input_question">Debt:</div>
+					<input type="text" name="firstname" placeholder="School and other debts" class="input_field" id="debt_texfield">
+				<br><br>
+		<input type="submit" value="Submit">
+		</form>
+		</div>
+	</div>
+
+
+
+	<script>
+		function scrollToAnchor(aid){
+	    	var aTag = $("div[class='"+ aid +"']");
+	    	$('html,body').animate({scrollTop: aTag.offset().top},'slow');
+		}
+		$("#link").click(function() {
+	   		scrollToAnchor('questionare_block');
+		});
+	</script>
 
 </body>
 </html>
+
+
+
+
 
 
 
