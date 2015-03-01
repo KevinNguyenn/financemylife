@@ -64,6 +64,114 @@ http://www.zillow.com/webservice/GetMonthlyPayments.htm?zws-id=X1-ZWz1ay4jy8mi2z
 
 Glass door Job stats
 
+"success": true,
+    "status": "OK",
+    "jsessionid": "54EB94017CAD1A14DF9C6370615843AC",
+    "response": {
+        "currentPageNumber": 1,
+        "totalNumberOfPages": 108,
+        "totalRecordCount": 1077,
+        "lashedLocation": {
+            "id": 1347,
+            "shortName": "Texas",
+            "longName": "Texas, US",
+            "locationType": "S"
+        },
+        "employers": [
+            {
+                "id": 327,
+                "name": "Hewlett-Packard",
+                "website": "www.hp.com",
+                "isEEP": true,
+                "exactMatch": false,
+                "industry": "Computer Hardware & Software",
+                "numberOfRatings": 9928,
+                "squareLogo": "https://media.glassdoor.com/sqll/327/hewlett-packard-squarelogo-1406132932361.png",
+                "overallRating": 3.3,
+                "ratingDescription": "OK",
+                "cultureAndValuesRating": "3.2",
+                "seniorLeadershipRating": "2.9",
+                "compensationAndBenefitsRating": "3.1",
+                "careerOpportunitiesRating": "3.4",
+                "workLifeBalanceRating": "3.5",
+                "recommendToFriendRating": "0.7",
+                "featuredReview": {
+                    "id": 5525515,
+                    "currentJob": true,
+                    "reviewDateTime": "2014-12-11 19:21:03.91",
+                    "jobTitle": "Software Developer III",
+                    "location": "Austin, TX",
+                    "jobTitleFromDb": "Software Developer III",
+                    "headline": "The most accepting LGBT company I have ever worked with",
+                    "pros": "having a world class organization be able to financially back you make this company worth working for",
+                    "cons": "unfortunately the left hand doesn't always know what the right hand is doing and in this case that mixed with the red tape in order to get any small project accomplished makes it a difficult place to work",
+                    "overall": 5,
+                    "overallNumeric": 5
+                },
+                "ceo": {
+                    "name": "Meg Whitman",
+                    "title": "CEO",
+                    "numberOfRatings": 3907,
+                    "pctApprove": 82,
+                    "pctDisapprove": 18,
+                    "image": {
+                        "src": "https://media.glassdoor.com/people/sqll/327/hewlett-packard-meg-whitman.png",
+                        "height": 200,
+                        "width": 200
+                    }
+                }
+            },
+            {
+                "id": 1327,
+                "name": "Dell",
+                "website": "www.dell.com",
+                "isEEP": true,
+                "exactMatch": false,
+                "industry": "Computer Hardware & Software",
+                "numberOfRatings": 4286,
+                "squareLogo": "https://media.glassdoor.com/sqll/1327/dell-squarelogo-1400262689483.png",
+                "overallRating": 3.4,
+                "ratingDescription": "OK",
+                "cultureAndValuesRating": "3.3",
+                "seniorLeadershipRating": "2.9",
+                "compensationAndBenefitsRating": "2.9",
+                "careerOpportunitiesRating": "2.7",
+                "workLifeBalanceRating": "3.5",
+                "recommendToFriendRating": "0.3",
+                "featuredReview": {
+                    "id": 6007433,
+                    "currentJob": false,
+                    "reviewDateTime": "2015-02-26 18:28:47.997",
+                    "jobTitle": "Software Development Engineer I",
+                    "location": "Dallas, TX",
+                    "jobTitleFromDb": "Software Development Engineer I",
+                    "headline": "Software Development Engineer",
+                    "pros": "Great place to work. HR is friendly and nice. Learn and meet a lot of smart people.",
+                    "cons": "Limited free time outside of work, management can be overly bossy at times.",
+                    "overall": 4,
+                    "overallNumeric": 4
+                },
+                "ceo": {
+                    "name": "Michael S. Dell",
+                    "title": "Chairman and CEO",
+                    "numberOfRatings": 2588,
+                    "pctApprove": 80,
+                    "pctDisapprove": 20,
+                    "image": {
+                        "src": "https://media.glassdoor.com/people/sqll/1327/dell-michael-s-dell.png",
+                        "height": 200,
+                        "width": 200
+                    }
+                }
+            },
+            {
+                "id": 11783,
+                "name": "Rackspace",
+                "website": "www.rackspace.com",
+                "isEEP": true,
+                
+Targets are "compensationAndBenefitsRating": "", "careerOpportunitiesRating": "", under "Employers". 
+The first two values for each field are requested
 
 
-http://api.glassdoor.com/api/api.htm?v=1&format=json&t.p=30822&t.k=vxCwTl1xrg&action=employers&q=<occupation desiried> &userip=172.19.2.0&useragent=Mozilla/%2F35.0&state=<two letter state name" &radius=1&admLevelRequested=1&City=< city name here>
+http://api.glassdoor.com/api/api.htm?v=1&format=json&t.p=30822&t.k=vxCwTl1xrg&action=employers&q=<DesiredOccupation>&userip=172.19.2.0&useragent=Mozilla/%2F35.0&state=<Two-letter-state-code>&radius=1&admLevelRequested=1&City=<CityInput>
