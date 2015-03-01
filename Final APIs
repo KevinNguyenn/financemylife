@@ -1,13 +1,69 @@
 Final APIs
 Glassdoor Job Prog
-
+-----------------------------------------
+    "success": true,
+    "status": "OK",
+    "jsessionid": "54EB94017CAD1A14DF9C6370615843AC",
+    "response": {
+        "jobTitle": "Software Developer",
+        "payCurrencyCode": "USD",
+        "payCurrencySymbol": "$",
+        "payLow": 55449,
+        "payMedian": 86226,
+        "payHigh": 124057,
+        "results": [
+            {
+                "nextJobTitle": "software engineer",
+                "frequency": 1357,
+                "frequencyPercent": 32.12594696969697,
+                "nationalJobCount": 84202,
+                "medianSalary": 75566
+            },
+Target fields: "paylow", "payHigh" under "response"
 http://api.glassdoor.com/api/api.htm?t.p=30822&t.k=vxCwTl1xrg&userip=216.59.196.8&useragent=chrome&format=json&v=1&action=jobs-prog&countryId=1&jobTitle=<insert Job title here>
+----------------------------------------------
 
 Zillow
-http://www.zillow.com/webservice/GetMonthlyPayments.htm?zws-id=X1-ZWz1ay4jy8mi2z_17jma&price=<price>&down=<down>&zip=<zip>
 
+   <request>
+        <price>190000</price>
+        <down>15</down>
+        <zip>78717</zip>
+    </request>
+    <message>
+        <text>Request successfully processed</text>
+        <code>0</code>
+    </message>
+    <response>
+        <payment loanType="thirtyYearFixed">
+            <rate>3.0</rate>
+            <monthlyPrincipalAndInterest>752</monthlyPrincipalAndInterest>
+            <monthlyMortgageInsurance>59</monthlyMortgageInsurance>
+        </payment>
+        <payment loanType="fifteenYearFixed">
+            <rate>3.0</rate>
+            <monthlyPrincipalAndInterest>1117</monthlyPrincipalAndInterest>
+            <monthlyMortgageInsurance>59</monthlyMortgageInsurance>
+        </payment>
+        <payment loanType="fiveOneARM">
+            <rate>3.0</rate>
+            <monthlyPrincipalAndInterest>698</monthlyPrincipalAndInterest>
+            <monthlyMortgageInsurance>59</monthlyMortgageInsurance>
+        </payment>
+        <downPayment>28500</downPayment>
+        <monthlyPropertyTaxes>361</monthlyPropertyTaxes>
+        
+        target: Under <payment loanType="fifteenYearFixed">, get <monthlyPrincipalAndInterest>1117</monthlyPrincipalAndInterest>
+        plus <monthlyPropertyTaxes>
+        
+        
+
+http://www.zillow.com/webservice/GetMonthlyPayments.htm?zws-id=X1-ZWz1ay4jy8mi2z_17jma&price=190000&down=15&zip=<zip>
+
+-----------------------------------------
 
 Glass door Job stats
+
 
 
 http://api.glassdoor.com/api/api.htm?v=1&format=json&t.p=30822&t.k=vxCwTl1xrg&action=employers&q=<occupation desiried> &userip=172.19.2.0&useragent=Mozilla/%2F35.0&state=<two letter state name" &radius=1&admLevelRequested=1&City=< city name here>
